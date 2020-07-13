@@ -9,6 +9,9 @@ import { PerfilComponent } from './components/perfil/perfil.component';
 import { CuentaComponent } from './components/cuenta/cuenta.component';
 import { MapaComponent } from './components/mapa/mapa.component';
 import { AgmCoreModule } from '@agm/core';
+import { HomeComponent } from './components/home/home.component';
+import { OrdersComponent } from './components/orders/orders.component';
+import { RegistroComponent } from './components/registro/registro.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,10 @@ import { AgmCoreModule } from '@agm/core';
     FixedBottomComponent,
     PerfilComponent,
     CuentaComponent,
-    MapaComponent
+    MapaComponent,
+    HomeComponent,
+    OrdersComponent,
+    RegistroComponent
   ],
   imports: [
     BrowserModule,

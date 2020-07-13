@@ -1,0 +1,12 @@
+#map {
+    height: 620px;
+}
+
+#boton {
+    z-index: 1;
+    position: fixed;
+    width: 130px;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
